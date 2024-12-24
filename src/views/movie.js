@@ -2,7 +2,7 @@ const url = new URL(location.href);
 const movieId = url.searchParams.get('id');
 const movieTitle = url.searchParams.get('title');
 
-const api_link = 'http://movie-LB-57574915.us-east-1.elb.amazonaws.com/api/v1/reviews/';
+const api_link = 'http://movieLB-1926768419.us-east-1.elb.amazonaws.com/api/v1/reviews/';
 const main = document.getElementById('section');
 const title = document.getElementById('title');
 
